@@ -284,3 +284,82 @@
   button:hover {
     background-color: #57a06b;
   }
+
+  .bodyCompras {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+
+  .containerCompras {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .boxCompras {
+    width: 200px;
+    height: 100px;
+    border: 1px solid black;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .input-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .input-group label {
+    margin-bottom: 5px;
+  }
+
+  .input-group input,
+  .input-group select {
+    width: 200px;
+    padding: 5px;
+  }
+
+  .total {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+  }
+
+  .total-label {
+    margin-right: 10px;
+  }
+
+  .total-input {
+    width: 100px;
+    padding: 5px;
+    border: 1px solid black;
+  }
+
+  .buttonsCompras {
+    display: flex;
+    justify-content: center;
+  }
+
+  .buttonCompras {
+    margin: 0 5px;
+    background-color: lightgreen;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .button:hover {
+    background-color: darkgreen;
+  }
+  
